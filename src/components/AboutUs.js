@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className='aboutus-containter'>
             <Container className='about-cards-containter'>
                 <Row>
-                    <Col className='text-center about-card py-3'>
+                    <Col sm={12} lg={4}  className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
                             icon={faCreditCard}
@@ -21,7 +21,7 @@ const AboutUs = () => {
                         <p className='about-text '>Efectivo y Mercado Pago</p>
                     </Col>
 
-                    <Col className='text-center about-card py-3'>
+                    <Col sm={12} lg={4}  className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
                             icon={faTruckFast}
@@ -30,7 +30,7 @@ const AboutUs = () => {
                         <p className='about-text '>A todo el pais</p>
                     </Col>
 
-                    <Col className='text-center about-card py-3'>
+                    <Col sm={12} lg={4}  className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
                             icon={faShieldHalved}
