@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
-import Rating from '../components/Rating'
 import products from '../products'
 import { Container } from 'react-bootstrap'
 
@@ -28,41 +27,28 @@ const ProductScreen = ({ match }) => {
                     <Col md={12} lg={5}>
                         <ListGroup
                             variant='flush'
-                            className='bg-white rounded mx-4'
+                            className='bg-white rounded mx-4 px-3'
                         >
                             <ListGroup.Item>
                                 <h3>{product.name}</h3>
                             </ListGroup.Item>
                             <ListGroup.Item>
-                                <Rating
-                                    value={product.rating}
-                                    text={` ${product.numReviews} reviews`}
-                                />
+                                <h4>
+                                    <strong>$ {product.price}</strong>
+                                </h4>
                             </ListGroup.Item>
+                            
+
                             <ListGroup.Item>
-                                Precio: ${product.price}
-                            </ListGroup.Item>
-                            <ListGroup.Item>
-                                Descripcion: {product.description}
-                            </ListGroup.Item>
-                            <ListGroup.Item>
-                                <Row>
-                                    <Col>Price:</Col>
-                                    <Col>
-                                        <strong>${product.price}</strong>
-                                    </Col>
-                                </Row>
+                            <u>Descripción</u><br/>
+                                {product.description}
                             </ListGroup.Item>
 
                             <ListGroup.Item className='max-widht-3'>
-                                <Row>
-                                    <Col>Estado:</Col>
-                                    <Col>
-                                        {product.countInStock > 0
-                                            ? 'Stock Disponible'
-                                            : 'No hay stock'}
-                                    </Col>
-                                </Row>
+                            <strong>{product.countInStock > 0
+                                    ? ' Stock Disponible!'
+                                    : ' No hay stock'}</strong>
+                                
                             </ListGroup.Item>
                             <ListGroup.Item className='d-flex justify-content-center'>
                                 <Button
@@ -80,7 +66,6 @@ const ProductScreen = ({ match }) => {
                 </Row>
             </Card>
         </Container>
-
     )
 }
 

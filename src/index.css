@@ -64,7 +64,9 @@ h3{
 .card-img-top {
     width: 100%;
     height: 260px;
-    object-fit: cover;
+    object-fit: contain;
+    background-color: #ffffffd5;
+
 }
 
 .aboutus-containter{
@@ -106,4 +108,16 @@ h3{
     width: 240px;
     height: 50px;
     object-fit:cover;
+}
+
+.envio-gratis{
+    color: #00a650;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    margin:0;
+}
+
+.precio{
+    padding:0;
 }
