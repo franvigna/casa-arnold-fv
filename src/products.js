@@ -234,6 +234,65 @@ const products = [
         price: 33290,
         countInStock: 1,
     },
+    {
+        _id: 21,
+        name: 'Ventilador Pie 3 En 1, 5 Paletas Aluminio',
+        image: '/images/VentiladorPie3En1.png',
+        description: `Ventilador Pie 3 En 1 Año de Garantia 5 Paletas Aluminio
+        -Potencia: 90W
+        -Altura: 1,80 mts
+        -Podes usarlo tanto de pie, como de pared o en modo turbo (de mesa)
+        -Posee 3 velocidades
+        -Cabezal oscilante .
+        -5 Aspas de Aluminio para un mayor equilibrio y menor vibración
+        -Tamaño: 18" pulgadas`,
+        brand: 'Exahome',
+        category: 'Climatización',
+        price: 10514,
+        countInStock: 1,
+    },
+    {
+        _id: 22,
+        name: 'Ventilador de pared y de piso Indelplas',
+        image: '/images/VentiladorParedYPiso.png',
+        description: `
+        Caracteristicas: 
+        -Marca: Indelplas 
+        -Color: negro 
+        -5 Aspas,
+        -16" de diámetro 
+        -Voltaje: 220 V
+        ¡Aire limpio y fresco en tus ambientes! El ventilador Indelplas IV16 es un elemento útil para dar frescura en el hogar. Con su óptimo rendimiento, la sensación térmica disminuirá. Es un aparato práctico, fácil de armar e instalar.`,
+        brand: 'Indelplas',
+        category: 'Climatización',
+        price: 7811,
+        countInStock: 1,
+    },
+    {
+        _id: 23,
+        name: 'Aire Acondicionado Kanji Home 2600 Watts Frio Calor',
+        image: '/images/AireAcondicionadoKanji2600W.png',
+        description: `
+        Aire Acondicionada Kanji Split 2600 watts frio-calor consumo A
+
+El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir el consumo de energía hasta un 16 por ciento (vs. un equipo similar de eficiencia energética C.) También, utiliza el gas no tóxico y no contaminante R410A, que no contribuye al debilitamiento de la capa de ozono y tiene una mayor capacidad de refrigeración.`,
+        brand: 'Kanji',
+        category: 'Climatización',
+        price: 130998,
+        countInStock: 1,
+    },
+    {
+        _id: 24,
+        name: 'Aire acondicionado Alaska split frío/calor 2322 frigorías',
+        image: '/images/AireacondicionadoAlaska2322Frigorias.png',
+        description: `
+        Climatizar tus espacios a lo largo del año es sin duda algo importante para tu comodidad y la de tus seres queridos. Contar con un aire acondicionado con función frío/calor es la mejor decisión. Con este aire Alaska conseguí una mejor relación costo-beneficio.`,
+        brand: 'Alaska',
+        category: 'Climatización',
+        price: 96.599,
+        countInStock: 1,
+    },
 ]
+
 
 export default products

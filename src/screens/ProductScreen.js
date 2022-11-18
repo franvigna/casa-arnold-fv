@@ -34,21 +34,30 @@ const ProductScreen = ({ match }) => {
                             </ListGroup.Item>
                             <ListGroup.Item>
                                 <h4>
-                                    <strong>$ {product.price}</strong>
+                                    <strong>
+                                        ${' '}
+                                        {product.price
+                                            .toString()
+                                            .replace(
+                                                /\B(?=(\d{3})+(?!\d))/g,
+                                                '.'
+                                            )}
+                                    </strong>
                                 </h4>
                             </ListGroup.Item>
-                            
 
                             <ListGroup.Item>
-                            <u>Descripción</u><br/>
+                                <u>Descripción</u>
+                                <br />
                                 {product.description}
                             </ListGroup.Item>
 
                             <ListGroup.Item className='max-widht-3'>
-                            <strong>{product.countInStock > 0
-                                    ? ' Stock Disponible!'
-                                    : ' No hay stock'}</strong>
-                                
+                                <strong>
+                                    {product.countInStock > 0
+                                        ? ' Stock Disponible!'
+                                        : ' No hay stock'}
+                                </strong>
                             </ListGroup.Item>
                             <ListGroup.Item className='d-flex justify-content-center'>
                                 <Button
