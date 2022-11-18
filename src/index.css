@@ -121,3 +121,13 @@ h3{
 .precio{
     padding:0;
 }
+
+.slick-next:before{
+    font-size: 35px !important;
+    margin-left: -17px;
+
+} 
+.slick-prev:before {
+    font-size: 35px !important;
+
+}

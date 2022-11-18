@@ -1,96 +1,31 @@
 import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Navbar, Row, Col, Container } from 'react-bootstrap'
-import Product from '../components/Product'
+import { Navbar, Container } from 'react-bootstrap'
 import AboutUs from '../components/AboutUs'
 import Hero from '../components/Hero'
-import products from '../products'
+import Carousel from '../components/Carousel'
 
 const HomeScreen = () => {
     return (
         <div>
             <Hero />
             <Container>
-            <AboutUs />
+                <AboutUs />
                 <LinkContainer to='/allproducts'>
-                <Navbar.Brand>
-                    <p className='text-center'>Todos los productos</p>
-                </Navbar.Brand>
+                    <Navbar.Brand>
+                        <p className='text-center'>Todos los productos</p>
+                    </Navbar.Brand>
                 </LinkContainer>
-                <h2>Bicicletas</h2>
-                <Row>
-                    {products
-                        //filtrar la categoria telefono
-                        .filter((product) => {
-                            return product.category === 'Bicicleta'
-                        })
-                        //Ordenar por menor precio
-                        .sort((a, b) => (a.price > b.price) ? 1 : -1)
-                        //acortar el array a 4
-                        .slice(0, 4)  
-                        //mapear los objetos
-                        .map((product) => {
 
-                            return (
-                                <Col
-                                    key={product._id}
-                                    sm={12}
-                                    md={6}
-                                    lg={4}
-                                    xl={3}
-                                >
-                                    <Product product={product} />
-                                </Col>
-                            )
-                        })}
-                </Row>
-                <h2>Celulares</h2>
-                <Row>
-                    {products
-                        //filtrar la categoria telefono
-                        .filter((product) => {
-                            return product.category === 'SmartPhone'
-                        })
-                        //Ordenar por menor precio
-                        .sort((a, b) => (a.price > b.price) ? 1 : -1)
-                        //acortar el array a 4
-                        .slice(0, 4)  
-                        //mapear los objetos
-                        .map((product) => {
-
-                            return (
-                                <Col
-                                    key={product._id}
-                                    sm={12}
-                                    md={6}
-                                    lg={4}
-                                    xl={3}
-                                >
-                                    <Product product={product} />
-                                </Col>
-                            )
-                        })}
-                </Row>
                 <h2>Climatizate</h2>
-                <Row>
-                    {products
-                        .filter((product) => {
-                            return product.category === 'Climatización'
-                        })
-                        .map((product) => {
-                            return (
-                                <Col
-                                    key={product._id}
-                                    sm={12}
-                                    md={6}
-                                    lg={4}
-                                    xl={3}
-                                >
-                                    <Product product={product} />
-                                </Col>
-                            )
-                        })}
-                </Row>
+                <Carousel category='Climatización' />
+
+                <h2>Bicicletas</h2>
+                <Carousel category='Bicicleta' />
+
+                <h2>Celulares</h2>
+                <Carousel category='SmartPhone' />
+
             </Container>
         </div>
     )

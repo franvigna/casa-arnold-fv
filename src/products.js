@@ -197,7 +197,7 @@ const products = [
     {
         _id: 19,
         name: 'Bicicleta Futura Mountain Bike Techno Rodado 29',
-        image: '/images/BicicletaFuturaMontainBikeR29.png',
+        image: '/images/BicicletaFuturaMontainbike.png',
         description: `Bicicleta futura rodado 29 pulgadas mountain bike techno 21v acero - 5300a
         características técnicas:
         - rodado 29 pulgadas
@@ -231,7 +231,7 @@ const products = [
         - Peso del producto: 5 kg`,
         brand: 'Futura',
         category: 'Bicicleta',
-        price: 33290,
+        price: 18290,
         countInStock: 1,
     },
     {
@@ -270,7 +270,7 @@ const products = [
     },
     {
         _id: 23,
-        name: 'Aire Acondicionado Kanji Home 2600 Watts Frio Calor',
+        name: 'Aire Acondicionado Kanji Home 2600 Watts F/C',
         image: '/images/AireAcondicionadoKanji2600W.png',
         description: `
         Aire Acondicionada Kanji Split 2600 watts frio-calor consumo A
@@ -283,13 +283,33 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
     },
     {
         _id: 24,
-        name: 'Aire acondicionado Alaska split frío/calor 2322 frigorías',
+        name: 'Aire acondicionado Alaska split f/c 2322 frigorías',
         image: '/images/AireacondicionadoAlaska2322Frigorias.png',
         description: `
         Climatizar tus espacios a lo largo del año es sin duda algo importante para tu comodidad y la de tus seres queridos. Contar con un aire acondicionado con función frío/calor es la mejor decisión. Con este aire Alaska conseguí una mejor relación costo-beneficio.`,
         brand: 'Alaska',
         category: 'Climatización',
         price: 96.599,
+        countInStock: 1,
+    },
+    {
+        _id: 25,
+        name: 'Bicicleta Rodado 12 Bmx Nena',
+        image: '/images/BicicletaR2BmxRosa.png',
+        description: `BICICLETA Forest RODADO 12
+
+        · Cuadrado de acero
+        · Tipo: Infantil
+        · Rodado:12
+        · Acero y plástico
+        · Cubrecadenas
+        · Protector de Caño
+        · Edad recomendada: 3 años
+        · Ruedas Macizas de goma
+        · Canasto (Nena)`,
+        brand: 'BMX',
+        category: 'Bicicleta',
+        price: 16990,
         countInStock: 1,
     },
 ]
