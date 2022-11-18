@@ -1,4 +1,4 @@
-const products = [  
+const products = [
     {
         _id: 2,
         name: 'Celular Libre Samsung A52 Negro',
@@ -95,7 +95,7 @@ const products = [
             'Eficiencia energética clase A. Refrigerante ecológico R410a. Display oculto. Control remoto multifunción. Barrido de aire automático. Súper silencioso. Función sleep. Timer programable. Filtros lavables.',
         brand: 'Philco',
         category: 'Climatización',
-        price: 112099,
+        price: 134988,
         countInStock: 1,
     },
     {
@@ -153,7 +153,7 @@ const products = [
         image: '/images/TermotanqueElectricoVitta.png',
         description: `conservadora de cerveza corona original con manijas laterales para facilitar su traslado y destapador incorporado al frente, con amplia capacidad para 12 porrones de cerveza o latas y amplio espacio para colocar hielo`,
         brand: 'Corona',
-        category: 'Refrigeración',
+        category: 'Termotanque/Calefones',
         price: 15960,
         countInStock: 1,
     },
@@ -313,6 +313,5 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         countInStock: 1,
     },
 ]
-
 
 export default products
