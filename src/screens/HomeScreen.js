@@ -16,7 +16,7 @@ const HomeScreen = () => {
                         <p className='text-center'>Todos los productos</p>
                     </Navbar.Brand>
                 </LinkContainer>
-
+                <h1>hola</h1>
                 <h2>Climatizate</h2>
                 <Carousel category='Climatización' />
 
