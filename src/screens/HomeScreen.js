@@ -20,9 +20,10 @@ const HomeScreen = () => {
                 <Carousel category='Climatización' />
 
                 <h2>Bicicletas</h2>
+                
                 <Carousel category='Bicicleta' />
 
-                <h2>Celulares</h2>
+                <h2>SmartPhones</h2>
                 <Carousel category='SmartPhone' />
 
             </Container>
