@@ -7,11 +7,12 @@ import products from '../products'
 export default class SwipeToSlide extends Component {
     render() {
         const { category } = this.props
+
         const settings = {
             className: 'center',
             infinite: true,
             centerPadding: '60px',
-            slidesToShow: 4,
+            slidesToShow: 2,
             swipeToSlide: true,
             afterChange: function (index) {
                 console.log(
