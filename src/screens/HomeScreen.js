@@ -2,7 +2,7 @@ import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Container } from 'react-bootstrap'
 import AboutUs from '../components/AboutUs'
-import Hero from '../components/Hero'
+// import Hero from '../components/Hero'
 import Carousel from '../components/Carousel'
 import CarouselMovil from '../components/CarouselMovil'
 
@@ -10,7 +10,7 @@ import CarouselMovil from '../components/CarouselMovil'
 const HomeScreen = () => {
     return (
         <div>
-            <Hero />
+            {/* <Hero /> */}
             <Container>
                 <AboutUs />
                 <LinkContainer to='/allproducts'>
