@@ -4,6 +4,8 @@ import { Navbar, Container } from 'react-bootstrap'
 import AboutUs from '../components/AboutUs'
 import Hero from '../components/Hero'
 import Carousel from '../components/Carousel'
+import CarouselMovil from '../components/CarouselMovil'
+
 
 const HomeScreen = () => {
     return (
@@ -17,14 +19,15 @@ const HomeScreen = () => {
                     </Navbar.Brand>
                 </LinkContainer>
                 <h2>Climatizate</h2>
-                <Carousel category='Climatización' />
+                {window.innerWidth >= '700' ? <Carousel category='Climatización' /> :                 <CarouselMovil category='Climatización'/>}
 
-                <h2>Bicicletas</h2>
                 
-                <Carousel category='Bicicleta' />
+                
+                <h2>Bicicletas</h2>
+                {window.innerWidth >= '700' ? <Carousel category='Bicicleta' /> :                 <CarouselMovil category='Bicicleta'/>}
 
-                <h2>SmartPhones</h2>
-                <Carousel category='SmartPhone' />
+                <h2>Celulares</h2>
+                {window.innerWidth >= '700' ? <Carousel category='SmartPhone' /> :                 <CarouselMovil category='SmartPhone'/>}
 
             </Container>
         </div>
