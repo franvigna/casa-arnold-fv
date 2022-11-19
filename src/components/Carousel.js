@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
 import { Col, Row } from 'react-bootstrap'
-import Product from '../components/Product'
+import Product from './Product'
 import products from '../products'
 
 export default class SwipeToSlide extends Component {
