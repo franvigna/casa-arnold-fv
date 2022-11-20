@@ -26,7 +26,7 @@ const AboutUs = () => {
                             className='about-icon'
                             icon={faTruckFast}
                         />
-                        <p className='about-title'>Envios Rapidos</p>
+                        <p className='about-title'>Envios Gratis</p>
                         <p className='about-text '>A todo el pais</p>
                     </Col>
 
