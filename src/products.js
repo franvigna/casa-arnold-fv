@@ -89,7 +89,7 @@ const products = [
     },
     {
         _id: 10,
-        name: 'Aire Split Philco f/c 3350Watts',
+        name: 'Aire Acondicionado Split Philco f/c 3350Watts',
         image: '/images/AireSplitPhilco3350watts.jpg',
         description:
             'Eficiencia energética clase A. Refrigerante ecológico R410a. Display oculto. Control remoto multifunción. Barrido de aire automático. Súper silencioso. Función sleep. Timer programable. Filtros lavables.',

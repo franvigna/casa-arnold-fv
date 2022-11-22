@@ -30,7 +30,7 @@ const AboutUs = () => {
                         <p className='about-title'>Envios Gratis</p>
                         <p className='about-text '>A toda zona oeste</p>
                     </Col>
-                    
+
                     <Col className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
@@ -46,7 +46,7 @@ const AboutUs = () => {
                             icon={faShieldHalved}
                         />
                         <p className='about-title'>Garantía Asegurada</p>
-                        <p className='about-text '>Directo de fábrica</p>
+                        <p className='about-text '>Productos directo de fábrica</p>
                     </Col>
 
                     
