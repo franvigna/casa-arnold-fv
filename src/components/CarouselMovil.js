@@ -23,7 +23,7 @@ export default class SwipeToSlide extends Component {
             },
         }
         return (
-            <Row>
+            <Row className='carousel-products'>
 
                 <Slider {...settings}>
                     {products
@@ -37,6 +37,7 @@ export default class SwipeToSlide extends Component {
                         .map((product) => {
                             return (
                                 <Col
+                                    
                                     key={product._id}
                                     sm={12}
                                     md={6}
