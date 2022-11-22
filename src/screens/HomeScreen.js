@@ -18,16 +18,21 @@ const HomeScreen = () => {
                         <p className='text-center'>Todos los productos</p>
                     </Navbar.Brand>
                 </LinkContainer>
-                <h2>Climatizate</h2>
-                {window.innerWidth >= '700' ? <Carousel category='Climatización' /> :                 <CarouselMovil category='Climatización'/>}
+                
+                    <h2>Climatizate</h2>
+                    {window.innerWidth >= '700' ? <Carousel category='Climatización' /> :                 <CarouselMovil category='Climatización'/>}
+        
 
                 
+                    <h2>Bicicletas</h2>
+                    {window.innerWidth >= '700' ? <Carousel category='Bicicleta' /> :                 <CarouselMovil category='Bicicleta'/>}
                 
-                <h2>Bicicletas</h2>
-                {window.innerWidth >= '700' ? <Carousel category='Bicicleta' /> :                 <CarouselMovil category='Bicicleta'/>}
 
-                <h2>Celulares</h2>
-                {window.innerWidth >= '700' ? <Carousel category='SmartPhone' /> :                 <CarouselMovil category='SmartPhone'/>}
+                
+                    <h2>Celulares</h2>
+                    {window.innerWidth >= '700' ? <Carousel category='SmartPhone' /> :                 <CarouselMovil category='SmartPhone'/>}
+               
+                
 
             </Container>
         </div>

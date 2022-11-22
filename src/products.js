@@ -294,7 +294,7 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
     },
     {
         _id: 25,
-        name: 'Bicicleta Rodado 12 Bmx Nena',
+        name: 'Bicicleta Rodado 12 Bmx Nena Princesas',
         image: '/images/BicicletaR2BmxRosa.png',
         description: `BICICLETA Forest RODADO 12
 

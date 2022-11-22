@@ -5,14 +5,15 @@ import {
     faTruckFast,
     faCreditCard,
     faShieldHalved,
+    faMoneyBill
 } from '@fortawesome/free-solid-svg-icons'
 
 const AboutUs = () => {
     return (
-        <div className='aboutus-containter'>
+        <div >
             <Container className='about-cards-containter'>
-                <Row>
-                    <Col sm={12} lg={4}  className='text-center about-card py-3'>
+                <Row className='aboutus-containter'>
+                    <Col  className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
                             icon={faCreditCard}
@@ -21,16 +22,25 @@ const AboutUs = () => {
                         <p className='about-text '>Efectivo y Mercado Pago</p>
                     </Col>
 
-                    <Col sm={12} lg={4}  className='text-center about-card py-3'>
+                    <Col  className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
                             icon={faTruckFast}
                         />
                         <p className='about-title'>Envios Gratis</p>
-                        <p className='about-text '>A todo el pais</p>
+                        <p className='about-text '>A toda zona oeste</p>
+                    </Col>
+                    
+                    <Col className='text-center about-card py-3'>
+                        <FontAwesomeIcon
+                            className='about-icon'
+                            icon={faMoneyBill}
+                        />
+                        <p className='about-title'>Financiación</p>
+                        <p className='about-text '> Cuotas Semanales, Quinsenales y Mensuales</p>
                     </Col>
 
-                    <Col sm={12} lg={4}  className='text-center about-card py-3'>
+                    <Col  className='text-center about-card py-3'>
                         <FontAwesomeIcon
                             className='about-icon'
                             icon={faShieldHalved}
@@ -38,6 +48,8 @@ const AboutUs = () => {
                         <p className='about-title'>Garantía Asegurada</p>
                         <p className='about-text '>Directo de fábrica</p>
                     </Col>
+
+                    
                 </Row>
             </Container>
         </div>
