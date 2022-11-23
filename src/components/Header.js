@@ -15,7 +15,11 @@ const Header = () => {
 
                         </Navbar.Brand>
                     </LinkContainer>
-
+                    <LinkContainer to='/allproducts'>
+                    <Navbar.Brand>
+                        <p className='text-center all-products'>Todos los productos</p>
+                    </Navbar.Brand>
+                </LinkContainer>
                     {/* <Navbar.Toggle aria-controls='basic-navbar-nav' />
                     <Navbar.Collapse id='basic-navbar-nav'>
                         <Nav className='ms-auto'>

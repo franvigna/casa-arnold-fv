@@ -1,20 +1,22 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-
+import { Link, useParams } from 'react-router-dom'
 import products from '../products'
 import Product from '../components/Product'
 
-const AllProductsScreen = () => {
+const Category = ({match}) => {
+  const { category } = useParams()
     return (
         <Container>
             <Link className='btn btn-secondary my-3 btn-sm ' to='/'>
                 Volver
             </Link>
-            <h2 className=' text-center'>Todos los productos</h2>
+            <h2 className=' text-center'>{category}</h2>
             <Row>
                 {products
-                
+                    .filter((product) => {
+                        return product.category === `${category}`
+                    })
                     .sort((a, b) => (a._id < b._id ? 1 : -1))
                     //mapear los objetos
                     .map((product) => {
@@ -29,4 +31,4 @@ const AllProductsScreen = () => {
     )
 }
 
-export default AllProductsScreen
+export default Category
