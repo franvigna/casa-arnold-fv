@@ -252,6 +252,10 @@ text-overflow: ellipsis;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.605);
 }
+.categories-img:hover{
+    box-shadow: 0px 0px 15px #b7bfc8
+
+}
 .img-category{
     width: 100%;
     padding: 10%;
@@ -279,4 +283,23 @@ text-overflow: ellipsis;
         margin: 0;
         padding: 0;
     }
+}
+
+.contact-programmer{
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
+}
+footer a{
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+    color: rgb(188, 209, 209);
+}
+footer a:hover{
+    color: rgb(224, 239, 255);
+}
+footer{
+    background-color: rgb(75, 85, 98);
+    color: rgb(188, 209, 209);
+
 }
