@@ -6,7 +6,7 @@ const products = [
         description:
             'Celular Samsung modelo A52 cuenta con un procesador SDM720G octa/core 2.3Ghz una memoria RAM de 6GB y 128GB de almacenamiento interno expandible hasta 1TB con una tarjeta microSD, sonido potente con dolby atmos *2 parlantes integrados(, desbloqueo con huella dactilar en pantalla *FOD( NFC, one UI3.1,protección IP67 *resistente hasta 1M de profundidad en agua dulce durante 30 minutos(, batería de 4.500mAh para mayor duración de la batería y 25W super fast charging, pantalla infinity/0 display de 6.5@ FHD supera moled *90Hz(, cámara frontal de 32MP y cuádruple cámara trasera de 64MP',
         brand: 'Samsung',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 91499,
         countInStock: 1,
     },
@@ -17,7 +17,7 @@ const products = [
         description:
             'Celular libre sansung modelo A32 cuenta con una camara proncipal de 64+8+5+5MP una camara frontal de 20MP y flach, memoria interna de 128GB expandibla a 1TB en una micro SD, memoria RAM de 4GB, pantalla de 6.4" super AMOLED la resolucion de la pantalla es de 1080x2400 FH+,funcion NFC,bluetooth,WI-FI el sistema operativo es android 11, octa-core2GHz,1.8GHz, parlante exterio y bateria de 5000mAh.',
         brand: 'Samsung',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 75999,
         countInStock: 1,
     },
@@ -28,7 +28,7 @@ const products = [
         description:
             'Celular Motorola G60s cuenta con una pantalla de 6.78@ * 1080x2460, 396ppi,HiD,120Hz(, sistema operativo android 11, procesador octa core 1.8Ghz * mediatek helio G95(, 4 cámara trasera 64]08]05]02MP, flash led, cámara frontal de 16MP con flash frontal, 6GB de memoria RAM y 128GB de memoria interna *disponible para el usuario 110GB( , expandible a 1TB con una tarjeta micro SD, acelerómetro, sensor de proximidad, brújula, huella dactilar, desbloqueofacial, wi fi y bluetooth, nano sim , batería de 5000 mAh con cargador turbo, con radio FM, no trae auriculares.',
         brand: 'Motorola',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 62999,
         countInStock: 1,
     },
@@ -39,7 +39,7 @@ const products = [
         description:
             'Con el nuevo modelo de Samsung es el primer S Pen incorporado en el Galaxy S tiene una clasificación IP68 y pone la precisión al alcance de tu mano trae una pantalla quad HD+ edge de 6.8" con lector de huellas dactilares ultrasónico y reconocimiento facial, viene con marco de aluminio, la batería es de 5000 mAh y carga superrápida de 25 watts, el procesador es un octa-core, la memoria RAM es de 12GB y su memoria interna es de 256GB, dual SIM.',
         brand: 'Samsung',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 299999,
         countInStock: 1,
     },
@@ -50,7 +50,7 @@ const products = [
         description:
             'Celular Samsung A03 cuenta con un procesador octa-core 1.6GHz, la pantalla es de 6.5" HD+ la cámara frontal es de 5.0mpx y la cámara trasera es de 48+02mpx, la memoria RAM es de 4GB y 128GB de memoria expandible a 1TB con una tarjeta micro SD, buetooth 5.0 y la batería es de 5000 mAh.',
         brand: 'Samsung',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 47999,
         countInStock: 1,
     },
@@ -61,7 +61,7 @@ const products = [
         description:
             'Hacé que tu entretenimiento favorito cobre vida con el contraste infinito que ofrece tonos oscuros más profundos y colores más brillantes, en la pantalla FHD+ de 6.6" y 90 Hz con tecnología pOLED. Gracias a la resolución Full HD+.',
         brand: 'Motorola',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 62999,
         countInStock: 1,
     },
@@ -72,7 +72,7 @@ const products = [
         description:
             'Celular Samsung A22 5G cuenta con un procesador octa-core 2.2GHz, la pantalla es de 6.6", la cámara frontal es de 8.0mpx y la cámara trasera es de 48+05+02mpx, la memoria RAM es de 4GB y 128GB de memoria expandible a 1TB con una tarjeta micro SD, buetooth 5.0.',
         brand: 'Samsung',
-        category: 'SmartPhone',
+        category: 'Celulares',
         price: 69999,
         countInStock: 1,
     },
@@ -83,7 +83,7 @@ const products = [
         description:
             'El nuevo Smart Philips cuenta con una resolución 4K UHD, con tecnología Ambilight en 3 lados y el sistema operativo Android tv Cuenta con control por voz con el Asistente de Google, HDR para imágenes brillantes, el diseño atractivo y ultra fino con marco plateado, Dolby Visión y Dolby Atmos para visión y sonido cinematográfico.',
         brand: 'Philips',
-        category: 'Televisores',
+        category: 'SmartTV',
         price: 179999,
         countInStock: 1,
     },
@@ -105,7 +105,7 @@ const products = [
         description:
             'Lavarropas Drean next 8.14P eco inverter, clase A]]], 1400 RPM en el centrifugado, 8 kg de ropa, display led color * te indica el tiempo real el programa seleccionado , la temperatura asociada, la velocidad del centrifugado, el avance del ciclo en cada etapa de lavado y el tiempo remanente(, luz interior de tambor, bisagra 180grados, cúpula de vidrio, silencioso y económico ahorra hasta un 30% de energía comparado con un lavarropas clase A .',
         brand: 'Drean',
-        category: 'Lavado/Secado',
+        category: 'Lavado',
         price: 98129,
         countInStock: 1,
     },
@@ -133,7 +133,7 @@ const products = [
     Consumo: 9400 cal/h
     Incluye 1 canasto de acero de 24x18x12 cm`,
         brand: 'El Gauchito',
-        category: 'Gastronomía',
+        category: 'Cocinas',
         price: 55566,
         countInStock: 1,
     },
@@ -153,7 +153,7 @@ const products = [
         image: '/images/TermotanqueElectricoVitta.png',
         description: `conservadora de cerveza corona original con manijas laterales para facilitar su traslado y destapador incorporado al frente, con amplia capacidad para 12 porrones de cerveza o latas y amplio espacio para colocar hielo`,
         brand: 'Corona',
-        category: 'Termotanque/Calefones',
+        category: 'Termotanques',
         price: 15960,
         countInStock: 1,
     },
@@ -170,7 +170,7 @@ const products = [
     Sistema Operativo: Windows 10 
     Puertos: USB 2.0; Jack 3,5mm; SD 64GB; HDMI`,
         brand: 'Injoo',
-        category: 'Notebook',
+        category: 'Notebooks',
         price: 57022,
         countInStock: 1,
     },
@@ -180,7 +180,7 @@ const products = [
         image: '/images/BicicletaFuturaCountryR26Turquesa.png',
         description: `La bicicleta es uno de los vehículos más elegidos como medio de transporte, y esta tendencia se incrementó aún más con la pandemia del coronavirus. Además de su uso para fines recreativos y deportivos, tiene un impacto muy positivo en el ambiente y el bienestar de personas de todas las edades. Sus beneficios son múltiples: es accesible, ocupa poco espacio, no genera contaminación y hace bien a la salud. ¡Sumate a esta ola sustentable que avanza en todo el mundo!`,
         brand: 'Futura',
-        category: 'Bicicleta',
+        category: 'Bicicletas',
         price: 40399,
         countInStock: 1,
     },
@@ -190,7 +190,7 @@ const products = [
         image: '/images/BicicletaPlayeraCanastoR26Violeta.png',
         description: `La bicicleta es uno de los vehículos más elegidos como medio de transporte, y esta tendencia se incrementó aún más con la pandemia del coronavirus. Además de su uso para fines recreativos y deportivos, tiene un impacto muy positivo en el ambiente y el bienestar de personas de todas las edades. Sus beneficios son múltiples: es accesible, ocupa poco espacio, no genera contaminación y hace bien a la salud. ¡Sumate a esta ola sustentable que avanza en todo el mundo!`,
         brand: 'Futura',
-        category: 'Bicicleta',
+        category: 'Bicicletas',
         price: 38089,
         countInStock: 1,
     },
@@ -210,7 +210,7 @@ const products = [
         - dimensiones 1.50 x 0.82 x 0.22
         - disponible en negro`,
         brand: 'Futura',
-        category: 'Bicicleta',
+        category: 'Bicicletas',
         price: 46999,
         countInStock: 1,
     },
@@ -230,7 +230,7 @@ const products = [
         - Medidas de la bicicleta: 82 x 70 x 49 cm
         - Peso del producto: 5 kg`,
         brand: 'Futura',
-        category: 'Bicicleta',
+        category: 'Bicicletas',
         price: 18290,
         countInStock: 1,
     },
@@ -308,7 +308,7 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         · Ruedas Macizas de goma
         · Canasto (Nena)`,
         brand: 'BMX',
-        category: 'Bicicleta',
+        category: 'Bicicletas',
         price: 16990,
         countInStock: 1,
     },

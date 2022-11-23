@@ -7,22 +7,32 @@ import products from '../products'
 export default class SwipeToSlide extends Component {
     render() {
         const { category } = this.props
-        const settings = {
-            className: 'center',
+        var settings = {
+            dots: false,
             infinite: true,
-            centerPadding: '60px',
+            speed: 500,
             slidesToShow: 4,
-            swipeToSlide: true,
-            afterChange: function (index) {
-                console.log(
-                    `Slider Changed to: ${
-                        index + 1
-                    }, background: #222; color: #bada55`
-                )
-            },
-        }
+            initialSlide: 0,
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 3,
+                  infinite: true,
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 2,
+                  initialSlide: 2
+                }
+              },
+              
+            ]
+          };
         return (
-            <Row>
+            <Row className='carousel-products'>
 
                 <Slider {...settings}>
                     {products
