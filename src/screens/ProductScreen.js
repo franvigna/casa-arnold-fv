@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
+import { Row, Col, Image, ListGroup, Card } from 'react-bootstrap'
 import products from '../products'
 import { Container } from 'react-bootstrap'
+import ModalForm from '../components/ModalForm'
+
 
 const ProductScreen = ({ match }) => {
     const { id } = useParams()
@@ -61,15 +63,8 @@ const ProductScreen = ({ match }) => {
                                 </strong>
                             </ListGroup.Item>
                             <ListGroup.Item className='d-flex justify-content-center'>
-                                <Button
-                                    className='btn-block my-3 btn-primary '
-                                    type='button'
-                                    disabled={product.countInStock === 0}
-                                    href={`https://api.whatsapp.com/send?phone=5491138658887&text=Hola, quiero más información del producto: ${product.name}`}
-                                    target='_blank'
-                                >
-                                    Consultar Producto
-                                </Button>
+                                <ModalForm stock={product.countInStock} name={product.name}/>
+                                
                             </ListGroup.Item>
                         </ListGroup>
                     </Col>
