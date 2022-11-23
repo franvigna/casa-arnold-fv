@@ -12,22 +12,15 @@ const HomeScreen = () => {
             <Container>
                 <Category />
                 <AboutUs />
-                
-                
+
                     <h2>Climatizate</h2>
                     <Carousel category='Climatización' />
-        
 
-                
                     <h2>Bicicletas</h2>
                     <Carousel category='Bicicletas' />
-                
-
-                
+    
                     <h2>Celulares</h2>
                     <Carousel category='Celulares' />
-               
-                
 
             </Container>
         </div>
