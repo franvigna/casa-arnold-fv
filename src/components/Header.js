@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header>
             <Navbar bg='primary' variant='dark'>
-                <Container>
+                <Container className='header-container'>
                     <LinkContainer to='/'>
                         <Navbar.Brand>
                             <img className='img-logo' src='/images/logo.png' alt='logo' />
