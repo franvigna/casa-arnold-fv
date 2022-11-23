@@ -289,7 +289,7 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         Climatizar tus espacios a lo largo del año es sin duda algo importante para tu comodidad y la de tus seres queridos. Contar con un aire acondicionado con función frío/calor es la mejor decisión. Con este aire Alaska conseguí una mejor relación costo-beneficio.`,
         brand: 'Alaska',
         category: 'Climatización',
-        price: 96.599,
+        price: 112599,
         countInStock: 1,
     },
     {

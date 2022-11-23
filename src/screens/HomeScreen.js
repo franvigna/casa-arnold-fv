@@ -12,6 +12,7 @@ const HomeScreen = () => {
         <div>
             {/* <Hero /> */}
             <Container>
+                
                 <AboutUs />
                 <LinkContainer to='/allproducts'>
                     <Navbar.Brand>
