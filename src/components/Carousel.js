@@ -8,8 +8,9 @@ export default class SwipeToSlide extends Component {
     render() {
         const { category } = this.props
         var settings = {
-            dots: false,
             infinite: true,
+            lazyLoad: true,
+
             speed: 500,
             slidesToShow: 4,
             initialSlide: 0,
@@ -19,13 +20,17 @@ export default class SwipeToSlide extends Component {
                 settings: {
                   slidesToShow: 3,
                   infinite: true,
+                  lazyLoad: true,
+
                 }
               },
               {
                 breakpoint: 600,
                 settings: {
                   slidesToShow: 2,
-                  initialSlide: 2
+                  initialSlide: 2,
+                  lazyLoad: true,
+
                 }
               },
               
