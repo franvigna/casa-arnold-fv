@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -10,11 +10,26 @@ import AllProductsScreen from './screens/AllProductsScreen'
 
 
 const App = () => {
+    const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
     return (
+        <>
+        {loading ? (
+            <div className="loader-container">
+                <div className="spinner"></div>
+            </div>
+          ) : (
         <Router>
+            
             <Header />
 
             <main className='pb-3'>
+                
                 <Routes>
                     <Route exact path='/' element={<HomeScreen />} />
                     <Route path='/product/:id' element={<ProductScreen />} />
@@ -27,7 +42,10 @@ const App = () => {
                 </Routes>
             </main>
             <Footer />
+          
         </Router>
+        )}
+        </>
     )
 }
 
