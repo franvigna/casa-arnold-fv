@@ -20,7 +20,7 @@ const HomeScreen = () => {
 
                 
                     <h2>Bicicletas</h2>
-                    <Carousel category='Bicicleta' />
+                    <Carousel category='Bicicletas' />
                 
 
                 
