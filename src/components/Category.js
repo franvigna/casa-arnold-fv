@@ -51,7 +51,7 @@ export default class MultipleItems extends Component {
           <div className='categories-item text-center'>
           <Link to='/category/SmartTV'>
             <div className="categories-img">
-                <img className="img-category" src="/images/SmartPhilips65-4k.webp" alt='category' />
+                <img className="img-category" src="/images/TVKodak40.webp" alt='category' />
             </div>
             </Link>
             <h3 className="categories-name">Smart TV</h3>
