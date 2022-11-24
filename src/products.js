@@ -111,13 +111,13 @@ const products = [
     },
     {
         _id: 12,
-        name: 'Freezer Neba F321 305Litros',
+        name: 'Freezer Neba F310 305Litros',
         image: '/images/FreezerNeba305LTS.webp',
         description:
             'En este freezer Neba podés guardar grandes cantidades de alimentos, por largos períodos de tiempo en condiciones óptimas sin preocuparte por desperdiciar comida.Eficiencia y ahorro. Gracias a la eficiencia energética B vas a aprovechar al máximo su rendimiento ya que ahorra un 35% de consumo.',
         brand: 'Neba',
         category: 'Refrigeración',
-        price: 83775,
+        price: 88775,
         countInStock: 1,
     },
     {
@@ -388,6 +388,153 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         price: 175998,
         countInStock: 1,
     },
+    {
+        _id: 30,
+        name: 'Smart Tv 60" Kodak Full Hd 4k Led Tv',
+        image: '/images/smarttvkodak60.webp',
+        description: `
+            -KODAK TV LED 60"
+            -ALTA DEFINICION : UHD / HIGH
+            -HDMI : 1.4
+            -ENTRADA USB 2.0
+            -60"
+            -IMAGENES DE ALTA DEFINICION 3840 X 2160 PIXELES
+            -ENTRADA DTV/ ANALOGICA X 1
+            -RJ45 1 OPTICAL X 1
+            -AV IN X 1 USB X 2
+            -DIMEMSIONES
+            -142 X 132 X 86 MM
+        `,
+        brand: 'Kodak',
+        category: 'SmartTV',
+        price: 175998,
+        countInStock: 1,
+    },
+    {
+        _id: 31,
+        name: 'Freezer horizontal Nueva Neba F400 blanco 384Lts',
+        image: '/images/FreezerNeba384LTS.webp',
+        description:
+            `Funciones: congelar, enfriar y freezar.
+            Dimensiones: 120 cm de ancho, 85 cm de alto y 65 cm de profundidad.
+            Tus alimentos siempre frescos y seguros.`,
+        brand: 'Neba',
+        category: 'Refrigeración',
+        price: 108599,
+        countInStock: 1,
+    },
+    {
+        _id: 32,
+        name: 'Heladera Exhibidora Vertical Vostok 370lts',
+        image: '/images/HeladeraExhibidora370lts.webp',
+        description:
+            `° Heladera exhibidora con puerta de vidrio
+            ° Volumen interno: 370 lts
+            ° Color blanco
+            ° 4 estantes intercambiables
+            ° Motocompresor de 1/4 HP
+            ° Gas Ecológico R134a
+            ° Defrosting Semiatomático
+            ° Voltaje 220V - Frecuencia 50Hz
+            ° Rango de temperatura de 0° a 7° C
+            ° Dimensiones: 55cm Ancho x 155cm Alto x 64 cm Profundidad
+            ° Ideal para exhibir bebidas, verduras, lácteos, pastas, productos frescos, verduras.`,
+        brand: 'Vostok',
+        category: 'Refrigeración',
+        price: 189799,
+        countInStock: 1,
+    },
+    {
+        _id: 31,
+        name: 'Freezer horizontal Nueva Neba F400 blanco 384Lts',
+        image: '/images/FreezerNeba384LTS.webp',
+        description:
+            `Funciones: congelar, enfriar y freezar.
+            Dimensiones: 120 cm de ancho, 85 cm de alto y 65 cm de profundidad.
+            Tus alimentos siempre frescos y seguros.`,
+        brand: 'Neba',
+        category: 'Refrigeración',
+        price: 108599,
+        countInStock: 1,
+    },
+    {
+        _id: 33,
+        name: 'Heladera Con Freezer Bambi 365lt Gris Sin Manija',
+        image: '/images/heladeraBambi392lts.webp',
+        description:
+            `•Espacio para recipientes verticales.
+            •Estantes de acero de alta resistencia.
+            •Compartimiento extra frío.
+            •Balcones desmontables / Porta botellas cromado.
+            •Contenedor para huevos.
+            •Batea para frutas y verduras.
+            •Patas niveladoras regulables.
+            • Máxima eficiencia energética: clase A.
+            • LIBRE DE CFC: Los Clorofluorocarbonos, dañan la capa de ozono.`,
+        brand: 'Bambi',
+        category: 'Refrigeración',
+        price: 115329,
+        countInStock: 1,
+    },
+    {
+        _id: 34,
+        name: 'Heladera Con Freezer Drean Blanca Clase A',
+        image: '/images/HeladeraFrezzerDrean264lts.webp',
+        description:
+            `Eficiencia energética: A.
+            Tipo de Heladera: Con Freezer
+            Tipo de enfriamiento: Cíclico.
+            Material de los estantes: Vidrio Templado.
+            Cantidad de los estantes: 3.
+            Estantes removibles.
+            Luz interior.
+            Cajón de vegetales.
+            Compartimiento botellas.
+            Porta Huevos.
+            Cubetera.
+            `,
+        brand: 'Drean',
+        category: 'Refrigeración',
+        price: 87999,
+        countInStock: 1,
+    },
+    {
+        _id: 35,
+        name: 'Placard 3 puertas Bahia',
+        image: '/images/placard3puertasbahia.webp',
+        description:
+            `Dimensiones: 914 mm de ancho, 1835 mm de alto y 460 mm de profundidad.
+            Tiene 2 cajones.
+            Posee 3 estantes.
+            Cuenta con un barral de madera.
+            Incluye accesorios para ensamblarlo.
+            El mueble ideal para mantener tus prendas ordenadas.
+            `,
+        brand: 'Bahia',
+        category: 'Muebles',
+        price: 20729,
+        countInStock: 1,
+    },
+    {
+        _id: 35,
+        name: 'Placard 4 puertas Bahia',
+        image: '/images/Placard4PuertasBahia.webp',
+        description:
+            `Dimensiones: 121 cm de ancho, 184 cm de alto y 47 cm de profundidad.
+            Tiene 2 cajones.
+            Posee 3 estantes.
+            Cuenta con un barral.
+            Incluye accesorios para ensamblarlo.
+            El mueble ideal para mantener tus prendas ordenadas.
+            `,
+        brand: 'Bahia',
+        category: 'Muebles',
+        price: 24729,
+        countInStock: 1,
+    },
+    
+    
+    
     
 ]
 
