@@ -75,18 +75,18 @@ export default class MultipleItems extends Component {
           <div className='categories-item text-center'>
           <Link to='/category/Refrigeración'>
           <div className="categories-img">
-                <img className="img-category" src="/images/ConservadoraCorona.webp" alt='category' />
+                <img className="img-category" src="/images/HeladeraFrezzerDrean264lts.webp" alt='category' />
             </div>
             </Link>
             <h3 className="categories-name">Heladeras</h3>
           </div>
           <div className='categories-item text-center'>
-          <Link to='/category/Termotanques'>
+          <Link to='/category/Muebles'>
           <div className="categories-img">
-                <img className="img-category" src="/images/TermotanqueElectricoVitta.webp" alt='category' />
+                <img className="img-category" src="/images/placard4puertasbahia.webp" alt='category' />
             </div>
             </Link>
-            <h3 className="categories-name">Agua Caliente</h3>
+            <h3 className="categories-name">Muebles</h3>
           </div>
           <div className='categories-item text-center'>
           <Link to='/category/Cocinas'>
