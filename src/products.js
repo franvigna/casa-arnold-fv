@@ -389,28 +389,6 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         countInStock: 1,
     },
     {
-        _id: 30,
-        name: 'Smart Tv 60" Kodak Full Hd 4k Led Tv',
-        image: '/images/smarttvkodak60.webp',
-        description: `
-            -KODAK TV LED 60"
-            -ALTA DEFINICION : UHD / HIGH
-            -HDMI : 1.4
-            -ENTRADA USB 2.0
-            -60"
-            -IMAGENES DE ALTA DEFINICION 3840 X 2160 PIXELES
-            -ENTRADA DTV/ ANALOGICA X 1
-            -RJ45 1 OPTICAL X 1
-            -AV IN X 1 USB X 2
-            -DIMEMSIONES
-            -142 X 132 X 86 MM
-        `,
-        brand: 'Kodak',
-        category: 'SmartTV',
-        price: 175998,
-        countInStock: 1,
-    },
-    {
         _id: 31,
         name: 'Freezer horizontal Nueva Neba F400 blanco 384Lts',
         image: '/images/FreezerNeba384LTS.webp',
@@ -516,7 +494,7 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         countInStock: 1,
     },
     {
-        _id: 35,
+        _id: 36,
         name: 'Placard 4 puertas Bahia',
         image: '/images/Placard4PuertasBahia.webp',
         description:
@@ -532,6 +510,196 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         price: 24729,
         countInStock: 1,
     },
+    {
+        _id: 37,
+        name: 'Placard 5 puertas Bahia',
+        image: '/images/Placard5puertasBahia.webp',
+        description:
+            `Dimensiones: 1810 mm de ancho, 1835 mm de alto y 460 mm de profundidad.
+            Tiene 2 cajones.
+            Posee 4 estantes.
+            Cuenta con 2 barrales de madera.
+            Incluye accesorios para ensamblarlo.
+            El mueble ideal para mantener tus prendas ordenadas.
+            `,
+        brand: 'Bahia',
+        category: 'Muebles',
+        price: 35399,
+        countInStock: 1,
+    },
+    {
+        _id: 38,
+        name: 'Cama 1 Plaza Y Media 1 1/2 De Pino Macizo',
+        image: '/images/Cama1PlazaYMediaDePinoMacizo.webp',
+        description:
+            `PINOSHOW
+
+            CAMA 1 PLAZA Y MEDIA EN PINO
+            
+            PARA COLCHÓN DE 190 X 100`,
+        brand: 'Pinoshow',
+        category: 'Muebles',
+        price: 9499,
+        countInStock: 1,
+    },
+    {
+        _id: 39,
+        name: 'Cocina Morelli Country Forza 550',
+        image: '/images/CocinaMorelliCountryForza550.webp',
+        description:
+            `Lo que tenés que saber de este producto:   
+            Cocina de pie.
+            Tipo de alimentación: gas/eléctrica.
+            Con encendido electrónico para mayor comodidad.
+            Posee 4 hornallas.
+            Interior cubierto con ladrillos refractarios.
+            Dimensiones: 55cm de ancho, 85cm de alto y 62cm de profundidad.`,
+        brand: 'Morelli',
+        category: 'Cocinas',
+        price: 96300,
+        countInStock: 1,
+    },
+    {
+        _id: 40,
+        name: 'Cocina Peabody London 4 Hornallas Multigas Blanc',
+        image: '/images/CocinaPeabodyLondon4Hornallas.webp',
+        description:
+            `Cocina Peabody multigas de 4 hornallas de color blanco - 56 cm
+            - Marca: Peabody
+            - Modelo: London
+            - Alto: 83 cm.
+            - Ancho: 56 cm
+            - Profundidad: 52 cm
+            - Hornallas: 4
+            - Encendido electrónico: Manual
+            - Válvula de seguridad: Si
+            - Peso: 38 kg
+            - Doble vidrio: Sí
+            - Controles: Analógico
+            - Plancha: Enlozada
+            - Eficiencia energética AA en horno y hornallas
+            - Tipo de gas: Multigas
+            - Fácil Limpieza`,
+        brand: 'Peabody',
+        category: 'Cocinas',
+        price: 59600,
+        countInStock: 1,
+    },
+    {
+        _id: 41,
+        name: 'Horno Eléctrico Boher 35 Lts.',
+        image: '/images/hornoelectriconegro.webp',
+        description:
+            `Características:
+            - Marca: Boher.
+            - Modelo B-42E.
+            - Capacidad: 35 litros.
+            - Potencia: 1800 W.
+            - Ideal para hornear, cocinar a la parrilla o a la plancha y tostar.
+            - Selector de temperatura de 100ºC A 250ºC.
+            - Timer de 60 minutos.
+            - Selector de potencia.
+            - Apagado automático con timbre de aviso.
+            - Bandeja esmaltada.
+            - Rejilla y agarradera de acero inoxidable.
+            - Rejillas y bandejas regulables en altura.
+            - Medidas internas: Ancho: 38 cm. Alto: 33 cm. Profundidad: 29 cm.
+            - Medidas externas: Ancho: 54 cm. Alto: 39 cm. Profundidad: 33,5 cm.`,
+        brand: 'Boher',
+        category: 'Cocinas',
+        price: 19499,
+        countInStock: 1,
+    },
+    {
+        _id: 42,
+        name: 'Bicicleta Rod29 Lamborghini Aluminio Shimano 21c',
+        image: '/images/BicicletaRod29LamborghiniAluminio.webp',
+        description:
+            `Bicicleta Mountain Bike Rodado 29 Lamborghini® Aluminio Shimano® 21 Velocidades Cuadro M Bicicleta aerodinamica de alto rendimiento Estatura recomendada : De 145 a 195 Cm. aproximadamente Estilo Paseo Mountain Bike Pie de apoyo sobre vaina trasera Cuadro • Aluminio 1,4 mm espesor • Ruteado interno de los cables • Talles disponible S/M/L Ruedas • Llanta doble pared de aluminio de 36 agujeros • Cubiertas Wanda 29¨ x 2,1 mm • Camara butil 29¨x 1.75 valvula de auto • Cierre rapido en rueda delantera • Caucho Frenos • A disco Cambio • 21 Velocidades • TY3000 Shymano® Asiento • Simil Cuero • Altura Regulable Suspension • Delantera Con Bloqueo Forma • Con Altura 31,8 x 22x2 620 mm Stem • Aluminio Puños • Largo 123 • Agarraderas de manubrio de goma reforzada Horquilla • Bloqueable de 29¨ x 38 mm Descarrilador • TZ500 Shimano ® Caja Pedalera • Sellada de 122,5 mm Zhongya Palanca • Acero de 170 mm Piñon • 7 Velocidades Con Cubrerayos Peso Maximo Soportado : 110 Kg.`,
+        brand: 'Lamborghini',
+        category: 'Bicicletas',
+        price: 73490,
+        countInStock: 1,
+    },
+    {
+        _id: 44,
+        name: 'Pava eléctrica Winco W83 transparente 220V 1.8L',
+        image: '/images/PavaElectricaWinco.webp',
+        description:
+            `Potencia de 1500w.
+            Con capacidad para 1.8 litros.
+            Con apagado automático.
+            Trae luz indicadora de funcionamiento.
+            Posee indicador de nivel del agua.
+            Tiene función mate.
+            Cuenta con base giratoria.
+            Tecnología y rapidez para tus infusiones.`,
+        brand: 'Winco',
+        category: 'Pequeños',
+        price: 8490,
+        countInStock: 1,
+    },
+    {
+        _id: 45,
+        name: 'Licuadora Yelmo 1.5 L celeste con jarra de plástico',
+        image: '/images/LicuadoraYelmo1LyMedio.webp',
+        description:
+            `Capacidad de 1.5 L.
+            Su potencia es de 650 W.
+            Cuchilla resistente de acero inoxidable.
+            Tapa dosificadora incorporada.
+            Funciona con 2 velocidades.
+            Tus preparaciones preferidas listas en pocos minutos.`,
+        brand: 'Yelmo',
+        category: 'Pequeños',
+        price: 12090,
+        countInStock: 1,
+    },
+    {
+        _id: 46,
+        name: 'Termo Peabody E-termo 700w 1 Litro con Mate',
+        image: '/images/TermoPeabody700w1Litro.webp',
+        description:
+            `Potencia de 700w.
+            Con capacidad para 1 litros.
+            Con apagado automático.
+            Tecnología y rapidez para tus infusiones.`,
+        brand: 'Peabody',
+        category: 'Pequeños',
+        price: 15730,
+        countInStock: 1,
+    },
+    {
+        _id: 47,
+        name: 'Pack Gama Planchita + Secado',
+        image: '/images/PlanchaySecadorGAMA.webp',
+        description:
+            `PLANCHA AVOCADO:
+
+            Temperatura máxima de 230°C.
+            Tecnología Nano Silver.
+            Revestimiento de cerámica y aceite de Chía.
+            Sistema de suspensión.
+            Bivoltaje.
+            Patines largos, 25 x 120mm.
+            SECADOR AVOCADO:
+            
+            2300 W de potencia.
+            Tecnología Nano Silver.
+            Revestimiento de Cerámica y aceite de Chía.
+            Filtro removible.
+            3 Temperaturas, 2 velocidades.
+            Cool Shot.
+            Aro para colgar.
+            Cable de 2 m.
+            Incluye 1 boquilla.`,
+        brand: 'GAMA',
+        category: 'Pequeños',
+        price: 21.057,
+        countInStock: 1,
+    },
+
+
     
     
     
