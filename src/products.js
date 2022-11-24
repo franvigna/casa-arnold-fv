@@ -423,19 +423,6 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         countInStock: 1,
     },
     {
-        _id: 31,
-        name: 'Freezer horizontal Nueva Neba F400 blanco 384Lts',
-        image: '/images/FreezerNeba384LTS.webp',
-        description:
-            `Funciones: congelar, enfriar y freezar.
-            Dimensiones: 120 cm de ancho, 85 cm de alto y 65 cm de profundidad.
-            Tus alimentos siempre frescos y seguros.`,
-        brand: 'Neba',
-        category: 'Refrigeración',
-        price: 108599,
-        countInStock: 1,
-    },
-    {
         _id: 33,
         name: 'Heladera Con Freezer Bambi 365lt Gris Sin Manija',
         image: '/images/heladeraBambi392lts.webp',
