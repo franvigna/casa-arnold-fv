@@ -10,6 +10,7 @@ const ModalForm = ({stock, name, props}) => {
   const [nombre, setNombre] = useState(props?.value ?? '');
   const [pago, setPago] = useState(props?.value ?? '');
   const [cuotas, setCuotas] = useState(props?.value ?? '');
+  
 
 
   return (
@@ -78,11 +79,7 @@ const ModalForm = ({stock, name, props}) => {
           <Button 
             type='submit'
             variant="primary" 
-            href={`https://api.whatsapp.com/send?phone=5491138658887&text=Hola, me llamo ${nombre}.
-            Quiero más información del producto: ${name}
-            Metodo de pago: ${pago} 
-            Financiación: ${cuotas}
-            `}
+            href={`https://api.whatsapp.com/send?phone=5491138658887&text=Hola, me llamo ${nombre}. Quiero más información del producto: ${name} // Metodo de pago: ${pago} // Financiación: ${cuotas}`} 
             target='_blank' 
             onClick={handleClose}>
             Aceptar

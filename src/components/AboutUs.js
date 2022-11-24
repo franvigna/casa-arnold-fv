@@ -7,39 +7,64 @@ import {
     faShieldHalved,
     faMoneyBill
 } from '@fortawesome/free-solid-svg-icons'
+import Accordion from 'react-bootstrap/Accordion';
+
 
 const AboutUs = () => {
     return (
         <div >
             <Container className='about-cards-containter'>
                 <Row className='aboutus-containter'>
-                    <Col className='text-center about-card py-2'>
-                        <div className='icon-contain'>
-                        <FontAwesomeIcon
-                            className='about-icon'
-                            icon={faCreditCard}
-                        />
-                        </div>
-                        <div className='text-contain'>
-                        <p className='about-title'>Medios de pago</p>
-                        <p className='about-text '>Efectivo y Mercado Pago</p>
-                        </div>
+                    <Col >  
+                        <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
+                                <div  className='icon-contain'>
+                                    <FontAwesomeIcon
+                                        className='about-icon'
+                                        icon={faCreditCard}
+                                    />
+                                </div>
+                                <div className='text-contain'>
+                                        <p className='about-title'>Medios de Pago</p>
+                                </div>
+                            </Accordion.Header>
+                                <Accordion.Body>
+                                <div className='text-contain'>
+                                    <p className='about-text '>Efectivo y Mercado Pago</p> 
+                                </div>
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            </Accordion>
                     </Col>
 
-                    <Col  className='text-center about-card py-2'>
-                    <div className='icon-contain'>
-                        <FontAwesomeIcon
-                            className='about-icon'
-                            icon={faTruckFast}
-                        />
-                        </div>
+                    <Col>
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
+                        <div className='icon-contain'>
+                            <FontAwesomeIcon
+                                className='about-icon'
+                                icon={faTruckFast}
+                            />
+                            </div>
                         <div className='text-contain'>
                         <p className='about-title'>Envios Gratis</p>
+                        </div>
+                        </Accordion.Header>
+                                <Accordion.Body>
+                    <div className='text-contain'>
                         <p className='about-text '>A toda zona oeste</p>
                         </div>
+                        </Accordion.Body>
+                            </Accordion.Item>
+                            </Accordion>
                     </Col>
 
-                    <Col className='text-center about-card py-2'>
+                    <Col>
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header >
                     <div className='icon-contain'>
                         <FontAwesomeIcon
                             className='about-icon'
@@ -48,12 +73,21 @@ const AboutUs = () => {
                         </div>
                         <div className='text-contain'>
                         <p className='about-title'>Financiación</p>
+                        </div>
+                        </Accordion.Header>
+                                <Accordion.Body>
+                        <div className='text-contain'>
                         <p className='about-text '> Cuotas Semanales, Quinsenales y Mensuales</p>
                         </div>
-
+                        </Accordion.Body>
+                            </Accordion.Item>
+                            </Accordion>
                     </Col>
 
-                    <Col  className='text-center about-card py-2'>
+                    <Col>
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>
                     <div className='icon-contain'>
                         <FontAwesomeIcon
                             className='about-icon'
@@ -62,8 +96,15 @@ const AboutUs = () => {
                         </div>
                         <div className='text-contain'>
                         <p className='about-title'>Garantía Asegurada</p>
+                        </div>
+                        </Accordion.Header>
+                                <Accordion.Body>
+                        <div className='text-contain'>
                         <p className='about-text '>Productos directo de fábrica</p>
                         </div>
+                        </Accordion.Body>
+                            </Accordion.Item>
+                            </Accordion>
                     </Col>
 
                     
@@ -71,9 +112,6 @@ const AboutUs = () => {
             </Container>
         </div>
 
-        // <div>
-        // <h3 className='text-center'>No hay productos en el Carrito de Compras...</h3>
-        // </div>
     )
 }
 

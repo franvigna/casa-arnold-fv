@@ -312,6 +312,83 @@ El equipo Kanji cuenta con eficiencia energética clase A, que permite reducir e
         price: 16990,
         countInStock: 1,
     },
+    {
+        _id: 26,
+        name: 'Smart Tv Kodak Smartvision Fhd Smart 40"',
+        image: '/images/TVKodak40.webp',
+        description: `- Fabricante: KODAK
+        - Pulgadas: 40
+        - Smart: Si
+        - Tipo de resolución: FULL HD
+        - Resolución: 1920 x 1080 Pixeles
+        - Modelo: WE-4XTL005
+        - Puertos: USB x2
+        - Hdmi: x3
+        - RJ45: x1
+        - Optical: x1
+        - Av in: x1
+        - Entrada dtv/analogica: x1
+        - Dimensiones: 990 x 118 x 570mm
+        - peso neto: 5.5kg
+        - Peso bruto: 6.9kg
+        - Color: Negro`,
+        brand: 'Kodak',
+        category: 'SmartTV',
+        price: 80564,
+        countInStock: 1,
+    },
+    {
+        _id: 27,
+        name: 'Smart Tv Hitachi Lcd FullHd 32"',
+        image: '/images/TVHitachi32.webp',
+        description: `Con el Smart TV CDH-LE32SMART19 vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.
+
+        Sumergite en la pantalla
+        Su resolución HD presenta imágenes con gran detalle y alta definición. Ahora todo lo que veas cobrará vida con brillo y colores más reales.
+        `,
+        brand: 'Hitachi',
+        category: 'SmartTV',
+        price: 62399,
+        countInStock: 1,
+    },
+    {
+        _id: 28,
+        name: 'Smart Tv Kanji KJ-6XST005 LED 4K 60"',
+        image: '/images/smarttvkanji60googletv.webp',
+        description: `
+        Con el Smart TV KJ-6XST005 vas a acceder a las aplicaciones en las que se encuentran tus contenidos favoritos. Además, podés navegar por Internet, interactuar en redes sociales y divertirte con videojuegos.
+
+        Viví en 4K
+        La cantidad de pixeles que ofrece es 4 veces mayor que la Full HD, ¿el resultado? Escenas mucho más realistas y con un nivel de detalle increíble. Ahora vas a conocer una aventura de inmersión que no va a dejar de sorprenderte.
+        `,
+        brand: 'Kanji',
+        category: 'SmartTV',
+        price: 125059,
+        countInStock: 1,
+    },
+    {
+        _id: 29,
+        name: 'Smart Tv 60" Kodak Full Hd 4k Led Tv',
+        image: '/images/smarttvkodak60.webp',
+        description: `
+            -KODAK TV LED 60"
+            -ALTA DEFINICION : UHD / HIGH
+            -HDMI : 1.4
+            -ENTRADA USB 2.0
+            -60"
+            -IMAGENES DE ALTA DEFINICION 3840 X 2160 PIXELES
+            -ENTRADA DTV/ ANALOGICA X 1
+            -RJ45 1 OPTICAL X 1
+            -AV IN X 1 USB X 2
+            -DIMEMSIONES
+            -142 X 132 X 86 MM
+        `,
+        brand: 'Kodak',
+        category: 'SmartTV',
+        price: 175998,
+        countInStock: 1,
+    },
+    
 ]
 
 export default products

@@ -79,10 +79,17 @@ h3{
   grid-template-columns: repeat(4, 1fr);
   gap:25px;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1000px) {
     .aboutus-containter{
         grid-template-columns: repeat(2, 1fr);
-        gap:10px;
+        gap:5px;
+
+    }
+}
+@media screen and (max-width: 720px) {
+    .aboutus-containter{
+        grid-template-columns: repeat(1, 1fr);
+        gap:5px;
 
     }
     .about-icon{
@@ -94,10 +101,19 @@ h3{
     .about-cards-containter{
         max-width: 95%;
     }
+    .text-contain{
+        width:100%;
+        text-align:center;
+    }
+    .about-title{
+        size: 1.5rem !important;
+
+    }       
+
 }
 
 .about-cards-containter{
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     /* background-color:aliceblue; */
     /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
     max-width: 90%;
@@ -122,6 +138,8 @@ h3{
     margin: 0;
     color: rgb(26, 26, 27);
     font-weight: 600;
+    font-size: 1.1rem;
+
 }
 .about-text{
     color: rgb(91, 91, 97);
@@ -250,7 +268,7 @@ text-overflow: ellipsis;
     align-items: center;
     padding: 5px;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.605);
+    background: rgba(255, 255, 255, 0.846);
 }
 .categories-img:hover{
     box-shadow: 0px 0px 15px #b7bfc8
@@ -303,4 +321,9 @@ footer{
     color: rgb(188, 209, 209);
 
 }
-
+.accordion-body {
+    background-color: #E5EEF8;
+}
+.accordion-button{
+    background-color: #E5EEF8;
+}

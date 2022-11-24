@@ -12,6 +12,9 @@ const HomeScreen = () => {
             <Container>
                 <Category />
                 <AboutUs />
+                
+                    <h2>¡Ofertas Mundialista!</h2>
+                    <Carousel category='SmartTV' />
 
                     <h2>Climatizate</h2>
                     <Carousel category='Climatización' />
